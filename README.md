@@ -6,7 +6,7 @@ NOTE: BareIronOperator only runs on UNIX terminals. It does not work on WSL due 
 Instructions:
 
 Server Operator (NOTE: Run all commands without quotations):
-1. Run "sudo apt-get install python3 wget telnet" (Or your distribution's equivalent) 
+1. Run "sudo apt-get install python3 wget telnet iproute2" (Or your distribution's equivalent) 
 2. Run "git clone https://github.com/BadgerClaw1/RouterCraft.git && cd RouterCraft/"
 3. Connect to the Wi-Fi Repeater
 4. Run the command "ip a" in your terminal. Make note of your computer's new IP from the router. It should be in the format 192.168.11.???
